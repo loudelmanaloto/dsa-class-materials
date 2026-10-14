@@ -48,7 +48,7 @@ javac -version
 ### Step 2: Install the JDK
 
 1. Go to **https://adoptium.net/** (Eclipse Temurin, a free and trusted build of Java).
-2. Click the download button for **JDK 21 (LTS)** for your operating system.
+2. Click the latest release and download button for **JDK 21 (LTS)** for your operating system.
 3. Run the installer.
 4. **Windows only:** on the *Custom Setup* screen, click the small drive icon next to each of these and choose **"Will be installed on local hard drive"**:
    - **Add to PATH**
