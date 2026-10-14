@@ -24,13 +24,17 @@ There is also a general Python guide, [`python_refresher_guide.md`](python_refre
 
 ## Practice sets
 
-| Track | Folder | How to check your work |
-|---|---|---|
-| Game Dev (Java) | [`java_gamedev/practice/`](java_gamedev/practice/) | `javac Practice.java Checker.java SortedScores.java`, then `java Checker` |
-| Animation (Python) | [`practice_animation/`](practice_animation/) | `python test_practice_anim.py` |
-| General (Python) | [`practice/`](practice/) | `python test_practice.py` |
+Download the zip for your track, unzip it, and open the folder in VS Code.
 
-Run these commands in a terminal **inside the practice folder**. Edit only the practice file (for example `Practice.java` or `practice_anim.py`). Problems you haven't started show as "not started", which is fine.
+| Track | Download | How to check your work |
+|---|---|---|
+| Game Dev (Java) | [**java-practice-gamedev.zip**](downloads/java-practice-gamedev.zip) | `javac Practice.java Checker.java SortedScores.java`, then `java Checker` |
+| Animation (Python) | [**python-practice-animation.zip**](downloads/python-practice-animation.zip) | `python test_practice_anim.py` |
+| General (Python) | [**python-practice-general.zip**](downloads/python-practice-general.zip) | `python test_practice.py` |
+
+> On GitHub, clicking a zip link opens a page with a **Download** (or "Download raw file") button. Click it to save the file.
+
+Run these commands in a terminal **inside the unzipped folder**. Edit only the practice file (for example `Practice.java` or `practice_anim.py`). Problems you haven't started show as "not started", which is fine.
 
 ## What you need
 
