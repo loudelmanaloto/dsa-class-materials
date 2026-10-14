@@ -1,3 +1,7 @@
+---
+title: "Python Refresher: Code Along Guide"
+---
+
 # Python Refresher: Code Along Guide
 
 **For:** Data Structures and Algorithms students restarting from the basics (Programming 1 and 2 review)
