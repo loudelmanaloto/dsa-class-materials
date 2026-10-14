@@ -7,8 +7,14 @@ kramdown:
   syntax_highlighter: rouge
 
 plugins:
+  - jekyll-optional-front-matter
   - jekyll-relative-links
   - jekyll-titles-from-headings
+
+# Process markdown files that have no front matter, so the guides need none
+optional_front_matter:
+  enabled: true
+  remove_originals: true
 
 relative_links:
   enabled: true
