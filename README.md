@@ -1,7 +1,3 @@
----
-title: "DSA Class Materials"
----
-
 # DSA Class Materials: Programming Refresher
 
 Welcome! This repository is for students of **Data Structures and Algorithms (DSA)** in the **BS Entertainment and Multimedia Computing (BSEMC)** program.

@@ -1,7 +1,3 @@
----
-title: "Python Refresher for Animation Students"
----
-
 # Python Refresher for Animation Students: Code Along Guide
 
 **For:** BS Entertainment and Multimedia Computing (Digital Animation Technology) students restarting Python before Data Structures and Algorithms

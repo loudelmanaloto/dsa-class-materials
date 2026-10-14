@@ -1,7 +1,3 @@
----
-title: "Java Refresher for Game Development Students"
----
-
 # Java Refresher for Game Development Students: Code Along Guide
 
 **For:** BS Entertainment and Multimedia Computing (Game Development) students restarting Java before Data Structures and Algorithms
