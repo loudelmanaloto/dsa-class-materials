@@ -32,7 +32,7 @@ Download the zip for your track, unzip it, and open the folder in VS Code.
 | Animation (Python) | [**python-practice-animation.zip**](downloads/python-practice-animation.zip) | `python test_practice_anim.py` |
 | General (Python) | [**python-practice-general.zip**](downloads/python-practice-general.zip) | `python test_practice.py` |
 
-> On GitHub, clicking a zip link opens a page with a **Download** (or "Download raw file") button. Click it to save the file.
+> Reading this on GitHub instead of the course site? Clicking a zip link opens a file page with a **Download** (or "Download raw file") button. Click it to save the file.
 
 Run these commands in a terminal **inside the unzipped folder**. Edit only the practice file (for example `Practice.java` or `practice_anim.py`). Problems you haven't started show as "not started", which is fine.
 

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title and page.url != "/" %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta name="color-scheme" content="light dark">
+  <script>
+    // Set the theme before the page paints to avoid a flash of the wrong colors.
+    (function () {
+      var theme = null;
+      try { theme = localStorage.getItem("theme"); } catch (e) {}
+      if (theme !== "light" && theme !== "dark") {
+        theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      }
+      document.documentElement.setAttribute("data-theme", theme);
+    })();
+  </script>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch between light and dark mode">
+      <span class="icon-sun" aria-hidden="true">&#9728;</span>
+      <span class="icon-moon" aria-hidden="true">&#9790;</span>
+      <span class="label"></span>
+    </button>
+  </header>
+
+  <main class="markdown-body">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <a href="https://github.com/loudelmanaloto/dsa-class-materials">View on GitHub</a>
+  </footer>
+
+  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+</body>
+</html>

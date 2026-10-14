@@ -1,0 +1,36 @@
+title: DSA Class Materials
+description: Programming refresher for BSEMC Data Structures and Algorithms students
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-relative-links
+  - jekyll-titles-from-headings
+
+relative_links:
+  enabled: true
+  collections: false
+
+titles_from_headings:
+  enabled: true
+  strip_title: true
+  collections: false
+
+# Apply the theme-aware layout to every markdown file without editing them
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Keep the instructor answer keys and scratch files off the published site
+exclude:
+  - teacher
+  - main.py
+  - practice
+  - practice_animation
+  - java_gamedev/practice
+  - .vscode
